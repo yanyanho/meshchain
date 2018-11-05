@@ -46,7 +46,7 @@ dependencies {
 
     compile "com.fasterxml.jackson.core:jackson-databind:2.8.11"
     compile 'io.netty:netty-all:4.1.15.Final'
-    compile 'io.netty:netty-tcnative:2.0.0.Final'
+    compile 'io.netty:netty-tcnative:2.0.18.Final'
    	compile 'com.google.guava:guava:19.0'
 
    	// web3j依赖
