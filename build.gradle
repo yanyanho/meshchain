@@ -60,7 +60,8 @@ dependencies {
     compile files('lib/web3sdk.jar')
     compile 'org.projectlombok:lombok:1.16.20'
     compile 'javax.servlet:javax.servlet-api:4.0.1'
-    compile 'org.eclipse.jetty.aggregate:jetty-all:9.4.8.v20171121'
+// https://mvnrepository.com/artifact/org.eclipse.jetty.aggregate/jetty-all
+	compile group: 'org.eclipse.jetty.aggregate', name: 'jetty-all', version: '9.4.12.v20180830'  ext { 'pom'}
 	//testCompile 'junit:junit:4.12'
 }
 
